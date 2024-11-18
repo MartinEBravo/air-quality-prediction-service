@@ -7,3 +7,5 @@ matplotlib
 python-dotenv
 scikit-learn
 xgboost
+lightgbm
+joblib

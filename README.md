@@ -1,6 +1,6 @@
 # air-quality-prediction-service
 
-![](imgs/pipeline.png)
+![](public/pipeline.png)
 
 ## Link
 
@@ -25,16 +25,12 @@ First, let's create the virtual environment:
 
 ## References
 
-[Assignment Instructions](./docs/instructions.pdf)
+[Assignment Instructions](./docs/info/instructions.pdf)
 
-[Introduction Lecture](./docs/01-introduction.pdf)
+[Introduction Lecture](./docs/info/01-introduction.pdf)
 
-[Serverless Machine Learning Lecture](./docs/02-serverless-ml.pdf)
+[Serverless Machine Learning Lecture](./docs/info/02-serverless-ml.pdf)
 
 [Building Machine Learning Systems with a Feature Store, Chapter 03](https://learning.oreilly.com/library/view/building-machine-learning/9781098165222/)
 
 [Conda Virtual Environment Guide - Medium](https://medium.com/@viraj1604/comprehensive-guide-conda-virtual-environment-d70fafa7cf48)
-
-[Viña del Mar - Air Quality Aqicn](https://aqicn.org/city/chile/vina-del-mar/)
-
-[Viña del Mar - Air Quality OpenMeteo](https://open-meteo.com/en/docs/air-quality-api#latitude=-33.0246&longitude=-71.5518)
