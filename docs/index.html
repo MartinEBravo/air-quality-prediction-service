@@ -35,9 +35,14 @@
         <h1 class="text-center mb-4">Air Quality Visualizations Dashboard</h1>
         <h1 class="text-center mb-4">Date: 
             <script>
-                var today = new Date();
-                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-                document.write(date);
+                const returnDate = () => {
+                    let date = new Date();
+                    let day = date.getDate();
+                    let month = date.getMonth() + 1;
+                    let year = date.getFullYear();
+                    return `${day}/${month}/${year}`;
+                }
+                document.write(returnDate());
             </script>
         </h1>
 
