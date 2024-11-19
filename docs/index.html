@@ -32,7 +32,14 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center mb-4">Air Quality Visualizations</h1>
+        <h1 class="text-center mb-4">Air Quality Visualizations Dashboard</h1>
+        <h1 class="text-center mb-4">Date: 
+            <script>
+                var today = new Date();
+                var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+                document.write(date);
+            </script>
+        </h1>
 
         <!-- PM2.5 Forecast Card -->
         <div class="card mb-4">
