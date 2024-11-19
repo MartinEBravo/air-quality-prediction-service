@@ -1,6 +1,8 @@
 
 # air-quality-prediction-service
 
+The following project aims to predict air quality (PM2.5 levels) using machine learning models. The project involves several steps, including data collection, feature engineering, model training, batch inference, and monitoring. The pipeline ensures that the predictions are continuously updated and monitored for accuracy.
+
 ![](public/pipeline.png)
 
 ## Link
