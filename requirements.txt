@@ -21,4 +21,5 @@ matplotlib==3.8.3
 # Linear Algebra
 numpy==1.26.4
 
+# Data manipulation
 python-dotenv

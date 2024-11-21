@@ -71,11 +71,7 @@ This notebook performs batch inference using the trained models to predict air q
 
 ## Environment Variables
 
-The project uses environment variables stored in a 
-
-.env
-
- file. Make sure to create this file with the necessary variables:
+The project uses environment variables stored in a `.env` file. Make sure to create this file with the necessary variables:
 
 ```
 HOPSWORKS_API_KEY=<your_hopsworks_api_key>
@@ -84,24 +80,34 @@ AQI_API_KEY=<your_aqi_api_key>
 
 ## Dependencies
 
-The project dependencies are listed in the 
+The project dependencies are listed in the `requirements.txt` file:
 
-requirements.txt
-
- file:
-
-```
+```python
+# Feature store and model registry
 hopsworks
-geopy
-openmeteo_requests 
-requests_cache 
-retry_requests
-matplotlib
+
+# Resolve city names from (longitude, latitude) coordinates
+geopy==2.4.1
+
+# Read weather data. Unpinned version - if we don't update, we won't get the weather data
+openmeteo-requests
+
+# Be more efficient when making REST (Http) requests
+requests-cache==1.2.0
+retry-requests==2.0.0
+
+# ML framework libraries
+xgboost==2.0.3
+scikit-learn==1.4.1.post1
+
+# Plot charts
+matplotlib==3.8.3
+
+# Linear Algebra
+numpy==1.26.4
+
+# Data manipulation
 python-dotenv
-scikit-learn
-xgboost
-lightgbm
-joblib
 ```
 
 ## References
