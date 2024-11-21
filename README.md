@@ -114,26 +114,10 @@ joblib
 
 ## Usage
 
-1. **Backfill Feature Group**: Run the 
-
-1-backfill-feature-group.ipynb
-
- notebook to backfill the feature group with historical data.
-2. **Daily Feature Pipeline**: Schedule the 
-
-2-daily-feature-pipeline.ipynb
-
- notebook to run daily to update the feature group with the latest data.
-3. **Training Pipeline**: Run the 
-
-3-training-pipeline.ipynb
-
- notebook to train the machine learning models.
-4. **Batch Inference Pipeline**: Run the 
-
-4-batch-inference-pipeline.ipynb
-
- notebook to perform batch inference and predict air quality.
+1. **Backfill Feature Group**: Run the `1-backfill-feature-group.ipynb` notebook to backfill the feature group with historical data.
+2. **Daily Feature Pipeline**: Schedule the `2-daily-feature-pipeline.ipynb` notebook to run daily to update the feature group with the latest data.
+3. **Training Pipeline**: Run the `3-training-pipeline.ipynb` notebook to train the machine learning models.
+4. **Batch Inference Pipeline**: Run the `4-batch-inference-pipeline.ipynb` notebook to perform batch inference and predict air quality.
 
 ## License
 
